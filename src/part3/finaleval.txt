@@ -1,0 +1,67 @@
+Random forest 
+Model A:Using performance based growth as actual 
+R² Score  : 0.9989
+RMSE      : 164.03
+MAPE      : 0.87%
+Model B: using fixed growth rate as actual 
+R² Score  : 0.9973
+RMSE      : 258.49
+MAPE      : 2.28%
+
+
+Lasso reg 
+Model A:Using performance based growth as actual 
+R² Score       : 0.9975
+RMSE           : 259.56
+MAE            : 172.81
+Model B: using fixed growth rate as actual 
+R² Score       : 0.9975
+RMSE           : 263.41
+MAE            : 171.42
+
+Ridge reg 
+Model A:Using performance based growth as actual 
+R² Score       : 0.9974
+RMSE           : 259.89
+MAE            : 174.72
+Model B: using fixed growth rate as actual 
+R² Score       : 0.9976
+RMSE           : 258.01
+MAE            : 170.46
+
+
+SVR
+
+Rbf 
+Model A:Using performance based growth as actual 
+R² Score : 0.9831
+RMSE     : 644.41
+MAPE     : 6.88%
+Model B: using fixed growth rate as actual 
+R² Score : 0.9953
+RMSE     : 341.08
+MAPE     : 3.08%
+
+
+Linear
+Model A:Using performance based growth as actual 
+R² Score : 0.9996
+RMSE     : 95.93
+MAPE     : 0.33%
+
+Model B: using fixed growth rate as actual 
+R² Score : 0.8812
+RMSE     : 1707.39
+MAPE     : 18.95%
+
+
+Polynomial
+Model A:Using performance based growth as actual 
+R² Score : 0.9045
+RMSE     : 1530.27
+MAPE     : 16.70%
+Model B: using fixed growth rate as actual 
+R² Score : 0.9953
+RMSE     : 341.08
+MAPE     : 3.08%
+
